@@ -418,12 +418,8 @@ form input {
   width: 170px;
 }
 
-@media (max-width: 765px){
-.about {
-    padding: 0;
-    margin-bottom: 810px;
-}}
-@media (max-width: 380px){
+
+@media (max-width: 700px){
   .about {
       padding: 0;
       margin-bottom: 1000px;
