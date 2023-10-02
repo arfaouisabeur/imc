@@ -413,7 +413,11 @@
     width: 170px;
 }
 
-
+@media (max-width: 765px){
+    .about {
+        padding: 0;
+        margin-bottom: 810px;
+    }}
 
 @media (max-width: 765px) {
     .about {
