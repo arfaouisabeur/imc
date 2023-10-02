@@ -84,7 +84,7 @@ function App() {
   value={formData.phoneNumber}
   onChange={handleChange}
   required
-  pattern="[0-9]{10}"
+  pattern="[0-9]{8}"
 /><br />
 
 <select
@@ -102,7 +102,7 @@ function App() {
   <option value="Production Team">Production Team</option>
   <option value="Logistics Team">Logistics Team</option>
   <option value="Design Team">Design Team</option>
-  <option value="Buisness Developer Team">Buisness Developer Team</option>
+
 </select>
             <br />
 
