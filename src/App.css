@@ -645,3 +645,8 @@ select:focus {
   outline: none;
   border-color: #007bff; /* Change the border color on focus */
 }
+.message{
+    margin-inline: 36%;
+    font-size: 30px;
+    color: #ffa500;
+}
