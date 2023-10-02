@@ -415,7 +415,7 @@
 
 @media (max-width: 765px) {
     .about {
-        padding: 0;
+        height: 100px;
     }
 }
 
