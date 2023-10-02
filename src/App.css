@@ -421,8 +421,13 @@ form input {
 @media (max-width: 765px){
 .about {
     padding: 0;
-    margin-bottom: 1000px;
+    margin-bottom: 810px;
 }}
+@media (max-width: 330px){
+  .about {
+      padding: 0;
+      margin-bottom: 1000px;
+  }}
 
 /* About End */
 
@@ -645,8 +650,9 @@ select:focus {
   outline: none;
   border-color: #007bff; /* Change the border color on focus */
 }
-.message{
-    margin-inline: 36%;
-    font-size: 30px;
-    color: #ffa500;
+.message {
+  color: orange;
+  font-size: 30px;
+  margin-left: 32%;
+  margin-right: 10%;
 }
