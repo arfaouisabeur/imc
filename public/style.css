@@ -414,6 +414,11 @@
 }
 
 @media (max-width: 765px) {
+    .about .card img {
+    	height: 100px;
+}
+}
+@media (max-width: 765px) {
     .about {
         height: 100px;
     }
