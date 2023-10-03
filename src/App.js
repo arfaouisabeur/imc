@@ -10,8 +10,9 @@ function App() {
     fullName: '',
     email: '',
     phoneNumber: '',
-    departmentReason: '',
     selectedOption: '',
+    departmentReason: ''
+
   });
 
   const [message, setMessage] = useState(''); // State variable for the message
@@ -98,7 +99,7 @@ function App() {
     Select an option
   </option>
   <option value="Project Team">Project Team</option>
-  <option value="Community Team">Community Team</option>
+  <option value="Buisness Development Team">Buisness Development Team</option>
   <option value="Production Team">Production Team</option>
   <option value="Logistics Team">Logistics Team</option>
   <option value="Design Team">Design Team</option>
